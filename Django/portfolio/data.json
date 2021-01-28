@@ -1,0 +1,9 @@
+{
+    "NAME": "Vivek Kumar",
+    "ABOUT_ME" : "Django developer. Skilled in building responsive websites using Django.",
+    "PROJECTS": [
+        ["filter_drama", "Data Structures and Algo", "DSA repo"],
+        ["place", "Data Science", "Data Science repo"],
+        ["whatshot", "Android", "Android repo"]
+    ]
+}
