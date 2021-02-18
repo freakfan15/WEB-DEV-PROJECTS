@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        .block{
+            display: block
+        }
+    </style>
+</head>
+<body>
+    <h1>Hey you! This is forms app</h1>
+    <form>
+        {%for field in form %}
+            <label for="{{ field.id_for_label }}">{{field.name}}</label>
+            <input name="{{field.name}}" class="block" id="{{field.id_for_label}}">
+        {% endfor %}
+    </form>
+</body>
+</html>
